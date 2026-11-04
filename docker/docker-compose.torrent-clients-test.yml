@@ -1,0 +1,38 @@
+# Throwaway Transmission, Deluge and rTorrent for the Phase 6 integration test
+# (scripts/torrent-clients-integration.sh). Each one's downloads folder is a bind mount, so the
+# test pre-places the data and the client verifies it on add (no network transfer).
+services:
+  transmission:
+    image: lscr.io/linuxserver/transmission:4.1.3
+    environment:
+      - PUID=${TC_UID:-1000}
+      - PGID=${TC_GID:-1000}
+      - USER=magarr
+      - PASS=magarr-test
+      - WHITELIST=*.*.*.*
+    ports:
+      - "127.0.0.1:9191:9091"
+    volumes:
+      - ${TC_WORK:?}/transmission/config:/config
+      - ${TC_WORK:?}/transmission/downloads:/downloads
+  deluge:
+    image: lscr.io/linuxserver/deluge:2.2.0
+    environment:
+      - PUID=${TC_UID:-1000}
+      - PGID=${TC_GID:-1000}
+    ports:
+      - "127.0.0.1:8212:8112"
+    volumes:
+      - ${TC_WORK:?}/deluge/config:/config
+      - ${TC_WORK:?}/deluge/downloads:/downloads
+  rtorrent:
+    image: crazymax/rtorrent-rutorrent:5.3.16-0.16.25
+    environment:
+      - PUID=${TC_UID:-1000}
+      - PGID=${TC_GID:-1000}
+      - XMLRPC_PORT=8000
+    ports:
+      - "127.0.0.1:8100:8000"
+    volumes:
+      - ${TC_WORK:?}/rtorrent/data:/data
+      - ${TC_WORK:?}/rtorrent/downloads:/downloads

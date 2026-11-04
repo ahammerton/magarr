@@ -1,0 +1,253 @@
+# Release-title corpus for parse_release().
+# Columns (tab-separated): source, title, magazine_title, issue_key, publish_date, format, quality,
+#   edition, is_pack, language
+# source: "real" = a title returned by NZBgeek (via Prowlarr) on 2026-10-15, with the expected
+#   values reviewed by hand; "hand" = hand-written in real-world styles; "gap" = a real title the
+#   parser gets wrong today, with the correct values (expected to fail until fixed).
+# Empty cells mean None. Add a row whenever a real title is misparsed.
+hand	Wired.USA.May.2024.HYBRID.MAGAZiNE.eBook-PDF	Wired USA	2024-05	2024-05-01	pdf	pdf	US	no
+hand	Wired UK - July-August 2024	Wired UK	2024-07	2024-07-01			UK	no
+hand	National Geographic UK - July 2024 (True PDF)	National Geographic UK	2024-07	2024-07-01	pdf	pdf	UK	no
+hand	National.Geographic.USA.2025.01.True.PDF	National Geographic USA	2025-01	2025-01-01	pdf	pdf	US	no
+hand	PC Gamer UK - Issue 395, 2024	PC Gamer UK	395	2024-01-01			UK	no
+hand	PC.Gamer.UK.Issue.396.July.2024.PDF	PC Gamer UK	396	2024-07-01	pdf	pdf	UK	no
+hand	The Economist - 18 May 2024 [True PDF]	The Economist	2024-05-18	2024-05-18	pdf	pdf		no
+hand	The.Economist.UK.Edition.2024.05.18.PDF	The Economist UK Edition	2024-05-18	2024-05-18	pdf	pdf	UK	no
+hand	The Economist USA - May 25, 2024	The Economist USA	2024-05-25	2024-05-25			US	no
+hand	Retro.Gamer.Issue.260.2024.HQ.PDF-SCENE	Retro Gamer	260	2024-01-01	pdf	pdf_hires		no
+hand	Retro Gamer UK - Issue 261, 2024 (HQ PDF)	Retro Gamer UK	261	2024-01-01	pdf	pdf_hires	UK	no
+hand	Linux Format UK - Issue 312, 2024 (True PDF)	Linux Format UK	312	2024-01-01	pdf	pdf	UK	no
+hand	Linux.Format.UK.September.2024.HYBRID.MAGAZiNE.eBook	Linux Format UK	2024-09	2024-09-01			UK	no
+hand	Edge Magazine - Issue 400 - June 2024	Edge	400	2024-06-01				no
+hand	EDGE.UK.No.401.July.2024.PDF	EDGE UK	401	2024-07-01	pdf	pdf	UK	no
+hand	New Scientist - 2 March 2024	New Scientist	2024-03-02	2024-03-02				no
+hand	New.Scientist.International.Edition.March.09.2024.PDF	New Scientist International Edition	2024-03-09	2024-03-09	pdf	pdf	International	no
+hand	New Scientist Australian Edition - 16 March 2024	New Scientist Australian Edition	2024-03-16	2024-03-16				no
+hand	Radio Times - 25-31 May 2024	Radio Times	2024-05-25	2024-05-25				no
+hand	Scientific American - Volume 330 Number 5 (May 2024)	Scientific American	Vol 330 No 5	2024-05-01				no
+hand	Scientific.American.Vol.331.No.1.July.2024.PDF	Scientific American	Vol 331 No 1	2024-07-01	pdf	pdf		no
+hand	MagPi - Issue 140, April 2024	MagPi	140	2024-04-01				no
+hand	The MagPi Issue 141 2024 PDF	The MagPi	141	2024-01-01	pdf	pdf		no
+hand	Empire Australasia - Summer Special 2024	Empire Australasia	Summer Special 2024	2024-01-01				no
+hand	Empire.UK.Annual.2023.PDF	Empire UK	Annual 2023	2023-01-01	pdf	pdf	UK	no
+hand	Total Film - Spring 2024	Total Film	Spring 2024	2024-01-01				no
+hand	Mojo Magazine - July 2024 (HQ PDF)	Mojo	2024-07	2024-07-01	pdf	pdf_hires		no
+hand	Classic Rock UK - Issue 327 - May 2024	Classic Rock UK	327	2024-05-01			UK	no
+hand	Autosport - 7 March 2024	Autosport	2024-03-07	2024-03-07				no
+hand	Autosport.2024.W10.PDF	Autosport	2024-W10	2024-03-04	pdf	pdf		no
+hand	Lapham's Quarterly - Q2 2024	Lapham's Quarterly	2024-Q2	2024-04-01				no
+hand	Wisden Cricketers Almanack 2024 EPUB	Wisden Cricketers Almanack	2024	2024-01-01	epub	epub		no
+hand	2000 AD - Prog 2380 (2024) CBR	2000 AD	2380	2024-01-01	cbr	cbr		no
+hand	Vogue UK - September 2023 (True PDF)	Vogue UK	2023-09	2023-09-01	pdf	pdf	UK	no
+hand	Vogue.India.October.2023.PDF	Vogue India	2023-10	2023-10-01	pdf	pdf	India	no
+hand	T3 UK - June 2024	T3 UK	2024-06	2024-06-01			UK	no
+hand	Stuff Magazine UK - March 2024 EPUB	Stuff UK	2024-03	2024-03-01	epub	epub	UK	no
+hand	Car.UK.2024.06.HQ.PDF	Car UK	2024-06	2024-06-01	pdf	pdf_hires	UK	no
+hand	Edge Magazine - Complete Year 2023	Edge	2023	2023-01-01				yes
+hand	Linux Format UK Issues 300-312 (2023-2024)	Linux Format UK					UK	yes
+hand	PC Gamer UK - 2023 Full Year Collection	PC Gamer UK	2023	2023-01-01			UK	yes
+hand	National Geographic - 12 Issues 2022	National Geographic	2022	2022-01-01				yes
+# --- Real titles from NZBgeek, 2026-10-15 ---
+real	Wired.USA-September.2023	Wired USA	2023-09	2023-09-01			US	no	
+real	PC.Gamer.Presents.PC.Hardware.Handbook.5th.Edition-October.2023	PC Gamer Presents PC Hardware Handbook 5th Edition	2023-10	2023-10-01				no	
+real	Edge-April.2023	Edge	2023-04	2023-04-01				no	
+real	The.Economist.USA-14.October.2023	The Economist USA	2023-10-14	2023-10-14			US	no	
+real	New.Scientist-14.September.2013	New Scientist	2013-09-14	2013-09-14				no	
+real	PC.Gamer.Annual-19.December.2022	PC Gamer Annual	2022-12-19	2022-12-19				no	
+real	Teknikens.Varld.No.22.2026.SWEDiSH.HYBRiD.MAGAZiNE	Teknikens Varld	22	2026-01-01				no	sv
+real	Wired.Italia.No.116.2026.iTALiAN.HYBRiD.MAGAZiNE	Wired Italia	116	2026-01-01				no	it
+real	Retro.Gamer.No.05.2026.iTALiAN.HYBRiD.MAGAZiNE	Retro Gamer	5	2026-01-01				no	it
+real	Wired.USA.TruePDF-June.2017	Wired USA	2017-06	2017-06-01	pdf	pdf	US	no	
+real	Linux.Format.UK.TruePDF-July.2017	Linux Format UK	2017-07	2017-07-01	pdf	pdf	UK	no	
+real	Scientific.American.TruePDF-April.2017	Scientific American	2017-04	2017-04-01	pdf	pdf		no	
+real	BBC.Science.Focus.No.437.2026.HYBRiD.MAGAZiNE	BBC Science Focus	437	2026-01-01				no	
+real	New.Scientist.July.18.2026.HYBRID.MAGAZINE	New Scientist	2026-07-18	2026-07-18				no	
+real	PC.Gamer.UK.No.427.2026.RETAIL.MAGAZINE	PC Gamer UK	427	2026-01-01			UK	no	
+real	Autosport.11.17.2022.HYBRiD.MAGAZiNE.eBook-PAPERCLiPS	Autosport	2022-11-17	2022-11-17				no	
+real	New.Scientist.No.3468.2023.Retail.MAGAZiNE.eBook-BitBook	New Scientist	3468	2023-01-01				no	
+real	PC.Gamer.US.No.379.2024.HYBRiD.MAGAZiNE.eBook-LiBRiCiDE	PC Gamer US	379	2024-01-01			US	no	
+real	THE.EDGE.MAG.No.01.2022.HYBRiD.MAGAZiNE.eBook-LiBRiCiDE	THE EDGE MAG	1	2022-01-01				no	
+real	PC.Gamer.US.No.378.2024.HYBRID.MAGAZINE.eBook-21A1	PC Gamer US	378	2024-01-01			US	no	
+real	EDGE.No.391.2023.HYBRID.MAGAZINE.eBook-21A1	EDGE	391	2023-01-01				no	
+real	Retro.Gamer.No.253.2023.HYBRID.MAGAZINE.eBook-21A1	Retro Gamer	253	2023-01-01				no	
+real	L.Economia.Del.Corriere.Della.Sera.10.13.2026.iTALiAN.RETAiL	L Economia Del Corriere Della Sera	2026-10-13	2026-10-13				no	it
+real	BBC.Top.Gear.November.2026.HYBRiD.MAGAZiNE	BBC Top Gear	2026-11	2026-11-01				no	
+real	Vogue.Philippines.March.2026.HYBRiD.MAGAZiNE	Vogue Philippines	2026-03	2026-03-01				no	
+real	Empire.August.2026.HYBRID.MAGAZINE	Empire	2026-08	2026-08-01				no	
+real	Scientific.American.2024	Scientific American	2024	2024-01-01				no	
+real	All.About.History.Genghis.Khan.and.the.Mongol.Empire.4th-Edition.2022	All About History Genghis Khan and the Mongol Empire 4th-Edition	2022	2022-01-01				no	
+real	Radio.Times.13-19.December.2025.HYBRID.MAGAZINE	Radio Times	2025-12-13	2025-12-13				no	
+real	Valeurs.Actuelles.N4690.2026.FRENCH.HYBRiD.MAGAZiNE	Valeurs Actuelles	4690	2026-01-01				no	fr
+real	Le.Nouvel.Economiste.N2312.2026.FRENCH.HYBRiD.MAGAZiNE	Le Nouvel Economiste	2312	2026-01-01				no	fr
+real	Vogue.N1066.2026.FRENCH.HYBRiD.MAGAZiNE	Vogue	1066	2026-01-01				no	fr
+real	Private.Eye.Magazine.Issue.1589-6.January.2023	Private Eye	1589	2023-01-06				no	
+real	Britain.At.War.Magazine.TruePDF-January.2015	Britain At War	2015-01	2015-01-01	pdf	pdf		no	
+real	- [MAGAZINE].World.of.Knowledge-October.2016	World of Knowledge	2016-10	2016-10-01				no	
+real	The.MagPi.Magazine.TruePDF-April.2016	The MagPi	2016-04	2016-04-01	pdf	pdf		no	
+real	PC.Gamer.UK.Issue.389-December.2023	PC Gamer UK	389	2023-12-01			UK	no	
+real	Edge.Issue.390-December.2023	Edge	390	2023-12-01				no	
+real	Retro.Gamer.UK.Issue.243-February.2023	Retro Gamer UK	243	2023-02-01			UK	no	
+real	Il.Sole.24.Ore.2026.10.12.iTALiAN.HYBRiD	Il Sole 24 Ore	2026-10-12	2026-10-12				no	it
+real	Great.Walks.October-November.2026.RETAIL.MAGAZINE	Great Walks	2026-10	2026-10-01				no	
+real	WIRED.USA.July-August.2026.HYBRID.MAGAZINE	WIRED USA	2026-07	2026-07-01			US	no	
+real	Vogue.Living.AUSTRALIA.May-June.2026.RETAIL.MAGAZINE	Vogue Living AUSTRALIA	2026-05	2026-05-01			Australia	no	
+real	Radio.Times.[2023.12.23].TruePDF	Radio Times	2023-12-23	2023-12-23	pdf	pdf		no	
+real	Wired.November.2023.HYBRID.MAGAZINE.eBook-21A1	Wired	2023-11	2023-11-01				no	
+real	Empire.February.2024.HYBRID.MAGAZINE.eBook-21A1	Empire	2024-02	2024-02-01				no	
+real	[MAGAZINE] The.Economist.Europe.TruePDF-1.October.2016	The Economist Europe	2016-10-01	2016-10-01	pdf	pdf		no	
+real	[MAGAZINE] New.Scientist.TruePDF-20.August.2016	New Scientist	2016-08-20	2016-08-20	pdf	pdf		no	
+real	[MAGAZINE] Radio.Times.TruePDF-20.August.2016	Radio Times	2016-08-20	2016-08-20	pdf	pdf		no	
+real	Tattoo.Empire.Magazine.NR05.2013.HYBRiD.MAGAZiNE.eBook-INKED	Tattoo Empire	5	2013-01-01				no	
+real	Radio.Times.20.December-02.January.2025.HYBRID.MAGAZINE	Radio Times	2024-12-20	2024-12-20				no	
+real	World.Coin.News.Vol.53.No.10.2026.RETAIL.MAGAZINE	World Coin News	Vol 53 No 10	2026-01-01				no	
+real	New.Scientist-Issue.3469.[16.Dec.2023].TruePDF	New Scientist	3469	2023-12-16	pdf	pdf		no	
+real	Retro.Gamer.Presents.The.Ultimate.JRPG.Handbook.First.Edition.2026.HYBRID.MAGAZINE	Retro Gamer Presents The Ultimate JRPG Handbook First Edition	2026	2026-01-01				no	
+real	All.About.History.Book.Of.The.Roman.Empire.Ninth.Edition.2025.HYBRID.MAGAZINE	All About History Book Of The Roman Empire Ninth Edition	2025	2025-01-01				no	
+real	WIRED.December-January.2024.HYBRID.MAGAZINE.eBook-21A1	WIRED	2023-12	2023-12-01				no	
+real	Wired.UK.January-February.2024.HYBRiD.MAGAZiNE.eBook-LiBRiCiDE	Wired UK	2024-01	2024-01-01			UK	no	
+real	Wired.UK-September.October.2023	Wired UK	2023-09	2023-09-01			UK	no	
+real	Living.Edge-August.September.2021	Living Edge	2021-08	2021-08-01				no	
+real	Scientific.American.Mind-May.June.2013	Scientific American Mind	2013-05	2013-05-01				no	
+real	- [MAGAZINE].PC.Gamer.USA-November.2016	PC Gamer USA	2016-11	2016-11-01			US	no	
+real	- [MAGAZINE].World.of.Knowledge.TruePDF-October.2016	World of Knowledge	2016-10	2016-10-01	pdf	pdf		no	
+real	[MAGAZINE].BBC.History.UK.TruePDF-October.2016	BBC History UK	2016-10	2016-10-01	pdf	pdf	UK	no	
+real	Linux.Format.UK.Annual-2023	Linux Format UK	Annual 2023	2023-01-01			UK	no	
+real	The.Magpi.TruePDF-2012	The Magpi	2012	2012-01-01	pdf	pdf		no	
+real	BBC.History.UK.The.Story.of.Roman.Britain.TruePDF-2017	BBC History UK The Story of Roman Britain	2017	2017-01-01	pdf	pdf	UK	no	
+real	Linux.Format.UK.Issue.225.TruePDF-July.2017	Linux Format UK	225	2017-07-01	pdf	pdf	UK	no	
+real	The.MagPi.issue.31.TruePDF-March.2015	The MagPi	31	2015-03-01	pdf	pdf		no	
+real	New.Scientist.International.Edition.2024-01-20	New Scientist International Edition	2024-01-20	2024-01-20			International	no	
+real	Radio.Times.2024-02-03	Radio Times	2024-02-03	2024-02-03				no	
+real	Autosport.2024-01-25	Autosport	2024-01-25	2024-01-25				no	
+real	Wired.UK.TruePDF-July.August.2017	Wired UK	2017-07	2017-07-01	pdf	pdf	UK	no	
+real	Scientific.American.Mind.TruePDF-May.June.2016	Scientific American Mind	2016-05	2016-05-01	pdf	pdf		no	
+real	[MAGAZINE] PC.Gamer.USA.TruePDF-October.2016	PC Gamer USA	2016-10	2016-10-01	pdf	pdf	US	no	
+real	[MAGAZINE] Linux.Format.UK.TruePDF-November.2016	Linux Format UK	2016-11	2016-11-01	pdf	pdf	UK	no	
+real	- [MAGAZINE].BBC.History.UK.TruePDF-October.2016	BBC History UK	2016-10	2016-10-01	pdf	pdf	UK	no	
+real	Retro.Gamer.Greatest.Gaming.Icons.Fifth.Edition.2023.HYBRID.MAGAZINE.eBook-21A1	Retro Gamer Greatest Gaming Icons Fifth Edition	2023	2023-01-01				no	
+real	Linux.Format-Issue.310.[Jan.2024].TruePDF	Linux Format	310	2024-01-01	pdf	pdf		no	
+real	The.MagPi-Issue.137.[Jan.2024].TruePDF	The MagPi	137	2024-01-01	pdf	pdf		no	
+real	Empire-Issue.423.[Feb.2024].TruePDF	Empire	423	2024-02-01	pdf	pdf		no	
+real	Pega.Pega.2017.S01E163.1080p.GLBO.WEB-DL.AAC2.0.x264-Morgoth	Pega Pega	2017	2017-01-01				no	
+real	[MAGAZINE] The.Economist.Europe-1.October.2016	The Economist Europe	2016-10-01	2016-10-01				no	
+real	[MAGAZINE] New.Scientist-13.August.2016	New Scientist	2016-08-13	2016-08-13				no	
+real	The.Economist.Intelligence.Unit.No.return.to.cheap.money-2023	The Economist Intelligence Unit No return to cheap money	2023	2023-01-01				no	
+real	The.Wired.World.UK-2023	The Wired World UK	2023	2023-01-01			UK	no	
+real	New.Scientist.Essential.Guide.No16-Exercise.[2023].TruePDF.REPOST	New Scientist Essential Guide	16	2023-01-01	pdf	pdf		no	
+real	PC.Gamer.Annual.Vol.7.2024	PC Gamer Annual	Vol 7	2024-01-01				no	
+real	Retro.Gamer.Issue.114.2013	Retro Gamer	114	2013-01-01				no	
+real	Vogue.Modemagazin.No.02.2014	Vogue Modemagazin	2	2014-01-01				no	
+real	Retro.Gamer.Issue.255	Retro Gamer	255					no	
+real	Linux.Format.February.2024	Linux Format	2024-02	2024-02-01				no	
+real	RetroGamer 101 186.SlipperyJim	RetroGamer 101 186 SlipperyJim						no	
+real	Retro.Magazines.Linux.Format	Retro Magazines Linux Format						no	
+real	Scientific.American.Various.pdfs.epubs	Scientific American Various pdfs epubs						no	
+real	[magazine].The.Economist-Asia.Outlook.2025.PDF	The Economist-Asia Outlook	2025	2025-01-01	pdf	pdf	Asia	no	
+real	New.Scientist.Magazine-January.27.2024	New Scientist	2024-01-27	2024-01-27				no	
+real	New.Scientist.Essential.Guide.No14-Human.Society.[2022].TruePDF.REPOST	New Scientist Essential Guide	14	2022-01-01	pdf	pdf		no	
+real	[MAGAZINE] Wired.USA.TruePDF-October.2016	Wired USA	2016-10	2016-10-01	pdf	pdf	US	no	
+real	[MAGAZINE] Vogue.USA.TruePDF-September.2016	Vogue USA	2016-09	2016-09-01	pdf	pdf	US	no	
+real	Magazine - PC Gamer UK  December 2025	PC Gamer UK	2025-12	2025-12-01			UK	no	
+real	[MAGAZINE] PC.Gamer.Specials.USA.TruePDF-Volume.2.2016	PC Gamer Specials USA	Vol 2	2016-01-01	pdf	pdf	US	no	
+real	[MAGAZINE] World.of.Knowledge.Australia.TruePDF-Issue.43.2016	World of Knowledge Australia	43	2016-01-01	pdf	pdf	Australia	no	
+real	[MAGAZINE] Retro.Gamer.TruePDF-Issue.158.2016	Retro Gamer	158	2016-01-01	pdf	pdf		no	
+real	[MAGAZINE] PC.Gamer.USA-October.2016	PC Gamer USA	2016-10	2016-10-01			US	no	
+real	- [MAGAZINE].BBC.History.UK-October.2016	BBC History UK	2016-10	2016-10-01			UK	no	
+real	[MAGAZINE] World.of.Knowledge-September.2016	World of Knowledge	2016-09	2016-09-01				no	
+real	[MAGAZINE] Vogue.Australia-September.2016	Vogue Australia	2016-09	2016-09-01			Australia	no	
+real	BBC.History.Magazine.UK-August.2013	BBC History UK	2013-08	2013-08-01			UK	no	
+real	Retro.Gamer-Issue.253.[2023].TruePDF	Retro Gamer	253	2023-01-01	pdf	pdf		no	
+real	Linux Format UK 03 2025	Linux Format UK	2025-03	2025-03-01			UK	no	
+real	The MagPi 02 2025	The MagPi	2025-02	2025-02-01				no	
+real	The Economist Asia 01 25 2025	The Economist Asia	2025-01-25	2025-01-25			Asia	no	
+real	Wired.Italia.Nr.97.Estate.2021.iTALiAN.HYBRiD.MAGAZiNE.eBook-DiVER	Wired Italia	97	2021-01-01				no	it
+real	[MAGAZINE].Wired.USA.TruePDF-November.2016.pdf	Wired USA	2016-11	2016-11-01	pdf	pdf	US	no	
+real	[MAGAZINE].The.Magpi.TruePDF-November.2016.pdf	The Magpi	2016-11	2016-11-01	pdf	pdf		no	
+real	[MAGAZINE] Wired.USA.TruePDF-November.2016.pdf	Wired USA	2016-11	2016-11-01	pdf	pdf	US	no	
+real	[MAGAZINE] The.Magpi.TruePDF-September.2016.pdf	The Magpi	2016-09	2016-09-01	pdf	pdf		no	
+real	[MAGAZINE] Wired.USA.Frontiers.President.Barack.Obama.TruePDF-November.2016.pdf	Wired USA Frontiers President Barack Obama	2016-11	2016-11-01	pdf	pdf	US	no	
+real	[MAGAZINE] Wired.UK.TruePDF-November.2016.pdf	Wired UK	2016-11	2016-11-01	pdf	pdf	UK	no	
+real	[MAGAZINE].Wired.UK.TruePDF-November.2016.pdf	Wired UK	2016-11	2016-11-01	pdf	pdf	UK	no	
+real	PC.Gamer.USA.Issue.379.2024-02	PC Gamer USA	379	2024-02-01			US	no	
+real	PC.Gamer.Annual.Volume.7-28.September.2023	PC Gamer Annual	2023-09-28	2023-09-28				no	
+real	Retro.Gamer.UK.Issue.251-28.September.2023	Retro Gamer UK	251	2023-09-28			UK	no	
+real	Magazine - Galaxys Edge - 002 - 2013-05 - Mike Resnick (ed) (epub)	Galaxys Edge	2	2013-05-01	epub	epub		no	
+real	[MAGAZINE] Retro.Gamer-Issue.158.2016	Retro Gamer	158	2016-01-01				no	
+real	[MAGAZINE] Vogue.Hommes.Hors.Serie.English.Version-Issue.24.2016	Vogue Hommes Hors Serie English Version	24	2016-01-01				no	
+real	Retro.Gamer.Presents.Ultimate.90s.Retro.Gaming.Collection.4th.Edition-August.2023	Retro Gamer Presents Ultimate 90s Retro Gaming Collection 4th Edition	2023-08	2023-08-01				no	
+real	Classic.Trains.Presents.CS13.Steams.Lost.Empire.III-March.2022	Classic Trains Presents CS13 Steams Lost Empire III	2022-03	2022-03-01				no	
+real	The.Magpi.Essentials.Learn.to.Code.with.C.TruePDF-Vol1.2016	The Magpi Essentials Learn to Code with C	Vol 1	2016-01-01	pdf	pdf		no	
+real	The.MagPi.Essentials.SENSE.HAT-Vol.1.2016	The MagPi Essentials SENSE HAT	Vol 1	2016-01-01				no	
+real	[MAGAZINE] Autosport.TruePDF-11.August.2016	Autosport	2016-08-11	2016-08-11	pdf	pdf		no	
+real	[MAGAZINE] Autosport-15.September.2016	Autosport	2016-09-15	2016-09-15				no	
+real	BBC.History-September.2017.Magazine.True	BBC History	2017-09	2017-09-01				no	
+real	Signal.Mag.Issue.03.Luxie.2026.French.Scan.Magazine	Signal Mag	3	2026-01-01				no	fr
+real	Piratz.Pocket.N01.Hors-Serie.2004.French.Scan.Magazine	Piratz Pocket	1	2004-01-01				no	fr
+real	V8.Magazine.No.08.2026.FiNNiSH.HYBRiD.MAGAZiNE	V8	8	2026-01-01				no	fi
+real	African.Business.Magazine.No.537.2026.HYBRiD.MAGAZiNE	African Business	537	2026-01-01				no	
+real	Modern.Psykologi.No.04-05.2026.SWEDiSH.HYBRiD.MAGAZiNE	Modern Psykologi	2026	2026-01-01				yes	sv
+real	Womens.Financial.Outcomes.WFO.Special.Tax.Edition.2026.RETAIL.MAGAZINE	Womens Financial Outcomes WFO	Special Tax Edition 2026	2026-01-01				no	
+real	International.Traveller.September-October-November.2026.RETAIL.MAGAZINE	International Traveller	2026-09	2026-09-01			International	no	
+real	British.Chess.Magazine.April.2026.RETAIL.MAGAZINE	British Chess	2026-04	2026-04-01				no	
+real	Magazine - The Economist UK  October 15-2025	The Economist UK	2025-10-15	2025-10-15			UK	no	
+real	The.Economist.January.11-17.2025	The Economist	2025-01-11	2025-01-11				no	
+real	[magazine].The.Economist.US-January.4th-January.10th.2025.PDF	The Economist US	2025-01-04	2025-01-04	pdf	pdf	US	no	
+real	[magazine].The.Economist.UK-January.25-January.31.2025.PDF	The Economist UK	2025-01-25	2025-01-25	pdf	pdf	UK	no	
+real	Magazine - New Scientist USA  20 September 2025	New Scientist USA	2025-09-20	2025-09-20			US	no	
+real	New.Scientist.No.3469.3470.2023.Retail.MAGAZiNE.eBook-BitBook	New Scientist	3469	2023-01-01				no	
+real	New.Scientist.Essential.Guide.No20-The.Human.Mind.[2023].TruePDF	New Scientist Essential Guide	20	2023-01-01	pdf	pdf		no	
+real	New.Scientist.Essential.Guide.No02-Artificial.Intelligence.[2020]	New Scientist Essential Guide	2	2020-01-01				no	
+real	New.Scientist.Essential.Guide.No13-The.Solar.System.[2022].TruePDF.REPOST	New Scientist Essential Guide	13	2022-01-01	pdf	pdf		no	
+real	Wired USA November 2013	Wired USA	2013-11	2013-11-01			US	no	
+real	Wired.May.2021.RETAiL.MAGAZiNE.eBook-PRiNTER	Wired	2021-05	2021-05-01				no	
+real	PC.Gamer.Magazine.October.2011.Retail.Ebook-DiSTRiBUTiON	PC Gamer	2011-10	2011-10-01				no	
+real	PC Gamer USA 2013-11	PC Gamer USA	2013-11	2013-11-01			US	no	
+real	PC.Gamer.Magazine.NR222.2011.Retail.Ebook-DiSTRiBUTiON	PC Gamer	222	2011-01-01				no	
+real	- [MAGAZINE].PC.Gamer.USA.TruePDF-November.2016	PC Gamer USA	2016-11	2016-11-01	pdf	pdf	US	no	
+real	PC Gamer UK  Issue 409, June 2025	PC Gamer UK	409	2025-06-01			UK	no	
+real	PC Gamer UK No 404 2025 HYBRID MAGAZINE -EbooK	PC Gamer UK	404	2025-01-01			UK	no	
+real	[MAGAZINE] Edge-November.2016	Edge	2016-11	2016-11-01				no	
+real	Joe Haldeman - Galaxys Edge Magazine (retail) (epub)	Joe Haldeman - Galaxys Edge			epub	epub		no	
+real	Magazine - [Galaxys Edge - 05] - 2013-11 - Mike Resnick (ed) (retail) (epub)	Galaxys Edge	5	2013-11-01	epub	epub		no	
+real	Retro.Gamer.Presents.Ultimate.Flashback.To.The.90s.Second.Edition.2026.HYBRiD	Retro Gamer Presents Ultimate Flashback To The 90s Second Edition	2026	2026-01-01				no	
+real	Retro.Gamer.Il.Grande.Libro.di.Nintendo.2025.iTALiAN.HYBRiD.MAGAZiNE	Retro Gamer Il Grande Libro di Nintendo	2025	2025-01-01				no	it
+real	Magazine - Retro Gamer Annual 12th Ed 2025	Retro Gamer	Annual 12th Ed 2025	2025-01-01				no	
+real	Retro.Gamer.Presents.Ultimate.Flashback.To.The.80S.Second.Edition.2025.HYBRID.MAGAZINE	Retro Gamer Presents Ultimate Flashback To The 80S Second Edition	2025	2025-01-01				no	
+real	Retro.Gamer-Issue.120 .2013	Retro Gamer	120	2013-01-01				no	
+real	- [MAGAZINE].Retro.Gamer.TruePDF-Issue.159.2016	Retro Gamer	159	2016-01-01	pdf	pdf		no	
+real	Retro Gamer Presents -The Handheld Gaming Collection, 3rd Edition 2025	Retro Gamer Presents -The Handheld Gaming Collection, 3rd Edition	2025	2025-01-01				no	
+real	Retro Gamer UK Issue 251-28 September 2023	Retro Gamer UK	251	2023-09-28			UK	no	
+real	Retro.Gamer-The.Story.of.Zelda.First.Edition.2023.HYBRiD.MAGAZiNE.eBook-LiBRiCiDE	Retro Gamer-The Story of Zelda First Edition	2023	2023-01-01				no	
+real	Retro.Gamer.Presents.Book.of.Mario.10th.Edition-17.August.2023	Retro Gamer Presents Book of Mario 10th Edition	2023-08-17	2023-08-17				no	
+real	Retro.Gamer.Presents.The.Ultimate.Platformer.Handbook.3rd.Edition.2023.HYBRiD.eBook-LiBRiCiDE	Retro Gamer Presents The Ultimate Platformer Handbook 3rd Edition	2023	2023-01-01				no	
+real	Linux.Format.Annual.Volume.7.2024-September.2023	Linux Format Annual	2023-09	2023-09-01				no	
+real	[MAGAZINE] Linux.Format.UK.TruePDF-October.2016.pdf	Linux Format UK	2016-10	2016-10-01	pdf	pdf	UK	no	
+real	Magazine - Vogue UK  October 2025	Vogue UK	2025-10	2025-10-01			UK	no	
+real	[MAGAZINE] Vogue.USA-October.2016	Vogue USA	2016-10	2016-10-01			US	no	
+real	[MAGAZINE] Teen.Vogue.TruePDF-October.November.2016	Teen Vogue	2016-10	2016-10-01	pdf	pdf		no	
+real	Vogue India  May-June 2025	Vogue India	2025-05	2025-05-01			India	no	
+real	Vogue.2024-02.AU	Vogue	2024-02	2024-02-01			Australia	no	
+real	Radio.Times.September.19-25.2026.RETAIL.MAGAZINE	Radio Times	2026-09-19	2026-09-19				no	
+real	Magazine - Radio Times 20 September 2025	Radio Times	2025-09-20	2025-09-20				no	
+real	[MAGAZINE] Radio.Times.TruePDF-13.19.August.2016	Radio Times	2016-08-13	2016-08-13	pdf	pdf		no	
+real	- [MAGAZINE].Radio.Times.TruePDF-10-16.September.2016	Radio Times	2016-09-10	2016-09-10	pdf	pdf		no	
+real	- [MAGAZINE].Radio.Times.TruePDF-10.September.2016	Radio Times	2016-09-10	2016-09-10	pdf	pdf		no	
+real	Radio.Times.[2023.12.16].TruePDF - Radio.Times.16.12.2023	Radio Times	2023-12-16	2023-12-16	pdf	pdf		no	
+real	Radio Times-7 October 2023	Radio Times	2023-10-07	2023-10-07				no	
+real	Radio Times [2023 10 14] (TruePDF)	Radio Times	2023-10-14	2023-10-14	pdf	pdf		no	
+real	[MAGAZINE] The.Magpi.Essentials.Gpio.Zero.Essentials.TruePDF-2016.pdf	The Magpi Essentials Gpio Zero Essentials	2016	2016-01-01	pdf	pdf		no	
+real	[MAGAZINE] The.Magpi-September.2016.pdf	The Magpi	2016-09	2016-09-01	pdf	pdf		no	
+real	The Darkness 116 (2013) (Digital) (Darkness-Empire)	The Darkness	116	2013-01-01				no	
+real	MAD Magazine 033 (2023) (Digital) (Son Of Ultron-Empire)	MAD	33	2023-01-01				no	
+real	Tattoo.Empire.Magazine.Press.Kit.2012.HYBRiD.MAGAZiNE.eBook-INKED	Tattoo Empire Press Kit	2012	2012-01-01				no	
+real	- [MAGAZINE].Autosport.TruePDF-8.September.2016	Autosport	2016-09-08	2016-09-08	pdf	pdf		no	
+real	- [MAGAZINE].Autosport-8.September.2016	Autosport	2016-09-08	2016-09-08				no	
+real	Autosport.12.22-29.2022.HYBRiD.MAGAZiNE.eBook-PAPERCLiPS	Autosport	2022-12-22	2022-12-22				no	
+real	BBC History Magazine 2013-04	BBC History	2013-04	2013-04-01				no	
+real	BBC.History.Revealed.Magazine-25.January.2023	BBC History Revealed	2023-01-25	2023-01-25				no	
+real	[MAGAZINE] BBC.History.UK.Royal.Dynasties.TruePDF-2016.pdf	BBC History UK Royal Dynasties	2016	2016-01-01	pdf	pdf	UK	no	
+real	BBC.History.magazine.N.205-July.2016	BBC History	205	2016-07-01				no	
+real	BBC History Magazine UK 2013-10	BBC History UK	2013-10	2013-10-01			UK	no	
+# --- Known gaps ---
+gap	Casa.Vogue.Brasil-Setembro.2020	Casa Vogue Brasil	2020-09	2020-09-01				no	
+gap	Chip.MagPi.Magazin.Januar.Februar.No.01.2017	Chip MagPi	1	2017-01-01				no	

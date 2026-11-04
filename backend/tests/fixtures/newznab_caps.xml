@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<caps>
+  <server version="1.0" title="Example Newznab" />
+  <limits max="100" default="50" />
+  <searching>
+    <search available="yes" supportedParams="q" />
+    <tv-search available="yes" supportedParams="q,season,ep" />
+    <book-search available="yes" supportedParams="q,author,title" />
+  </searching>
+  <categories>
+    <category id="5000" name="TV">
+      <subcat id="5040" name="HD" />
+    </category>
+    <category id="7000" name="Books">
+      <subcat id="7010" name="Mags" />
+      <subcat id="7020" name="EBook" />
+      <subcat id="7030" name="Comics" />
+    </category>
+  </categories>
+</caps>

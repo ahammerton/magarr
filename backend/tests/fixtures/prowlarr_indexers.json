@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "NZBGeek",
+    "protocol": "usenet",
+    "enable": true,
+    "priority": 10,
+    "implementation": "Newznab",
+    "capabilities": {
+      "categories": [
+        {"id": 5000, "name": "TV", "subCategories": [{"id": 5040, "name": "TV/HD"}]},
+        {"id": 7000, "name": "Books", "subCategories": [{"id": 7010, "name": "Books/Mags"}, {"id": 7020, "name": "Books/EBook"}]}
+      ]
+    }
+  },
+  {
+    "id": 2,
+    "name": "Public Tracker",
+    "protocol": "torrent",
+    "enable": true,
+    "priority": 25,
+    "implementation": "Cardigann",
+    "capabilities": {"categories": [{"id": 7000, "name": "Books", "subCategories": []}]}
+  },
+  {
+    "id": 3,
+    "name": "Movies Only",
+    "protocol": "torrent",
+    "enable": true,
+    "priority": 25,
+    "capabilities": {"categories": [{"id": 2000, "name": "Movies", "subCategories": []}]}
+  },
+  {
+    "id": 4,
+    "name": "Switched Off",
+    "protocol": "usenet",
+    "enable": false,
+    "priority": 25,
+    "capabilities": {"categories": [{"id": 7010, "name": "Books/Mags", "subCategories": []}]}
+  }
+]

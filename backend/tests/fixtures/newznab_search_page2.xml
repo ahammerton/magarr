@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:newznab="http://www.newznab.com/DTD/2010/feeds/attributes/">
+  <channel>
+    <newznab:response offset="2" total="3" />
+    <item>
+      <title>National.Geographic.USA.2025.01.HYBRID.MAGAZiNE.eBook-PDF</title>
+      <guid>ccc333</guid>
+      <link>https://nzb.example/getnzb/ccc333.nzb</link>
+      <pubDate>Thu, 09 Jan 2025 21:00:00 GMT</pubDate>
+      <newznab:attr name="size" value="61000000" />
+      <newznab:attr name="category" value="7010" />
+    </item>
+  </channel>
+</rss>

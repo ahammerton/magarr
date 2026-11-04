@@ -1,0 +1,37 @@
+# Hot-reload development override.
+#   docker compose -f docker-compose.yml -f docker-compose.dev.yml up --build
+# UI with hot module reload: http://localhost:5173   (API also on :8282)
+services:
+  magarr:
+    command:
+      - uvicorn
+      - magarr.main:create_app
+      - --factory
+      - --reload
+      - --reload-dir=/app/backend/magarr
+      - --host=0.0.0.0
+      - --port=8282
+    environment:
+      - PYTHONPATH=/app/backend  # mounted source shadows the installed package
+      - MAGARR_LOGGING__LEVEL=DEBUG
+      - WATCHFILES_FORCE_POLLING=true  # file events do not cross VM mounts on macOS
+    volumes:
+      - ./backend/magarr:/app/backend/magarr
+
+  frontend:
+    image: node:22-alpine
+    working_dir: /app
+    command: sh -c "npm ci && npx vite --host 0.0.0.0"
+    environment:
+      - MAGARR_BACKEND_URL=http://magarr:8282
+      - CHOKIDAR_USEPOLLING=1
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - frontend-node-modules:/app/node_modules
+    depends_on:
+      - magarr
+
+volumes:
+  frontend-node-modules:

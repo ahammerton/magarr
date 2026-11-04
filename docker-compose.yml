@@ -1,0 +1,24 @@
+# Builds and runs Magarr as a single container (backend + built UI).
+#   docker compose up --build
+# Then open http://localhost:8282
+services:
+  magarr:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: magarr:dev
+    container_name: magarr
+    ports:
+      - "8282:8282"
+    volumes:
+      - magarr-config:/config
+      # Your magazine library. Replace with a bind mount, e.g. /srv/magazines:/magazines,
+      # then add /magazines as a root folder in Settings > Media Management.
+      - magarr-magazines:/magazines
+    environment:
+      - TZ=Etc/UTC
+    restart: unless-stopped
+
+volumes:
+  magarr-config:
+  magarr-magazines:

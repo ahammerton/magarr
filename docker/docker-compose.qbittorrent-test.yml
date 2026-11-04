@@ -1,0 +1,16 @@
+# Throwaway qBittorrent for the Phase 3 integration test (scripts/qbittorrent-integration.sh).
+# Its downloads folder is a bind mount, so the test can pre-place data that qBittorrent then
+# verifies on add (no network transfer is involved).
+services:
+  qbittorrent:
+    image: lscr.io/linuxserver/qbittorrent:5.0.2
+    container_name: magarr-qbittorrent-test
+    environment:
+      - PUID=${QBT_UID:-1000}
+      - PGID=${QBT_GID:-1000}
+      - WEBUI_PORT=8085
+    ports:
+      - "127.0.0.1:8085:8085"
+    volumes:
+      - ${QBT_CONFIG_DIR:?}:/config
+      - ${QBT_DOWNLOADS_DIR:?}:/downloads

@@ -1,0 +1,12 @@
+# Copy to docker-compose.override.yml (git-ignored) to add machine-specific mounts; Docker
+# Compose loads it automatically with docker-compose.yml.
+#
+# Mount your downloads and library where the download client sees them, so its paths work in
+# Magarr unchanged. If that's not possible, use a different path here and add a remote path
+# mapping in Settings > Download Clients.
+#
+# macOS + Colima: the host folder must also be shared with the Colima VM (see README).
+services:
+  magarr:
+    volumes:
+      - /mnt/nas/data:/data

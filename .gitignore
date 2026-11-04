@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+
+# Local runtime data
+/config/
+backend/config/
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# Playwright
+frontend/test-results/
+frontend/playwright-report/
+
+# Integration test scratch (scripts/)
+/.cache/
+
+# Machine-specific compose mounts
+docker-compose.override.yml

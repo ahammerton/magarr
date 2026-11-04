@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:torznab="http://torznab.com/schemas/2015/feed">
+  <channel>
+    <item>
+      <title>National Geographic UK - January 2025 (HQ PDF)</title>
+      <guid>https://tracker.example/torrent/9001</guid>
+      <link>https://tracker.example/download/9001.torrent</link>
+      <comments>https://tracker.example/torrent/9001</comments>
+      <pubDate>Tue, 07 Jan 2025 12:00:00 +0000</pubDate>
+      <size>88123456</size>
+      <torznab:attr name="seeders" value="42" />
+      <torznab:attr name="peers" value="50" />
+      <torznab:attr name="category" value="7010" />
+      <torznab:attr name="downloadvolumefactor" value="0" />
+    </item>
+    <item>
+      <title>National Geographic Complete Year 2024</title>
+      <guid>https://tracker.example/torrent/9002</guid>
+      <link>https://tracker.example/download/9002.torrent</link>
+      <pubDate>Sun, 05 Jan 2025 12:00:00 +0000</pubDate>
+      <size>1200000000</size>
+      <torznab:attr name="seeders" value="12" />
+      <torznab:attr name="peers" value="13" />
+    </item>
+    <item>
+      <title>National Geographic Traveller UK - January 2025</title>
+      <guid>https://tracker.example/torrent/9003</guid>
+      <link>https://tracker.example/download/9003.torrent</link>
+      <pubDate>Mon, 06 Jan 2025 12:00:00 +0000</pubDate>
+      <size>40000000</size>
+      <torznab:attr name="seeders" value="3" />
+      <torznab:attr name="peers" value="3" />
+    </item>
+    <item>
+      <title>Missing link is skipped</title>
+    </item>
+  </channel>
+</rss>

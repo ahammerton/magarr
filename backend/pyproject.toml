@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "magarr"
+dynamic = ["version"]
+description = "A magazine PVR for Usenet and BitTorrent"
+license = "GPL-3.0-only"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1",
+    "uvicorn[standard]>=0.32",
+    "sqlalchemy>=2.0.36,<3",
+    "alembic>=1.14,<2",
+    "pydantic>=2.9,<3",
+    "pydantic-settings>=2.6,<3",
+    "pyyaml>=6.0.2",
+    "rapidfuzz>=3.10",
+    "httpx>=0.28",
+    "defusedxml>=0.7.1",
+    "pypdfium2>=4.30",
+    "pillow>=11",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.3",
+    "respx>=0.22",
+    "ruff>=0.8",
+]
+
+[project.scripts]
+magarr = "magarr.main:run"
+
+[tool.hatch.version]
+path = "magarr/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["magarr"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "S", "N"]
+ignore = ["S104"]  # binding to 0.0.0.0 is intended for a container app
+
+[tool.ruff.lint.per-file-ignores]
+"tests/**" = ["S101", "S105", "S106", "E501"]  # fixture tables read better unwrapped
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "integration: needs real external services (see scripts/)",
+    "load: slow load tests (scripts/load-test.sh)",
+]

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:newznab="http://www.newznab.com/DTD/2010/feeds/attributes/">
+  <channel>
+    <title>Example Newznab</title>
+    <newznab:response offset="0" total="3" />
+    <item>
+      <title>National.Geographic.UK.2025.01.True.PDF</title>
+      <guid isPermaLink="true">https://nzb.example/details/aaa111</guid>
+      <link>https://nzb.example/getnzb/aaa111.nzb&amp;i=1&amp;r=KEY</link>
+      <comments>https://nzb.example/details/aaa111#comments</comments>
+      <pubDate>Wed, 08 Jan 2025 10:15:00 +0000</pubDate>
+      <category>Books &gt; Mags</category>
+      <enclosure url="https://nzb.example/getnzb/aaa111.nzb&amp;i=1&amp;r=KEY" length="48234567" type="application/x-nzb" />
+      <newznab:attr name="category" value="7000" />
+      <newznab:attr name="category" value="7010" />
+      <newznab:attr name="size" value="48234567" />
+      <newznab:attr name="grabs" value="17" />
+    </item>
+    <item>
+      <title>National Geographic - February 2025</title>
+      <guid isPermaLink="true">https://nzb.example/details/bbb222</guid>
+      <link>https://nzb.example/getnzb/bbb222.nzb</link>
+      <pubDate>Mon, 10 Feb 2025 08:00:00 +0000</pubDate>
+      <enclosure url="https://nzb.example/getnzb/bbb222.nzb" length="51000000" type="application/x-nzb" />
+      <newznab:attr name="category" value="7010" />
+    </item>
+  </channel>
+</rss>
