@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 # ---- Frontend build (runs on the build host's arch; output is arch-independent) ----
-FROM --platform=$BUILDPLATFORM node:22-alpine AS frontend
+FROM --platform=$BUILDPLATFORM node:26-alpine AS frontend
 WORKDIR /src/frontend
 COPY frontend/package.json frontend/package-lock.json ./
 RUN npm ci
