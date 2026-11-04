@@ -17,8 +17,8 @@
     "@mantine/form": "^7.17.8",
     "@mantine/hooks": "^7.17.8",
     "@mantine/notifications": "^7.17.8",
-    "@tabler/icons-react": "^3.49.0",
-    "@tanstack/react-query": "^5.104.3",
+    "@tabler/icons-react": "^3.50.0",
+    "@tanstack/react-query": "^5.105.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^7.18.5"
@@ -35,12 +35,12 @@
     "@vitejs/plugin-react": "^6.2.1",
     "eslint": "^9.39.5",
     "eslint-plugin-react-hooks": "^5.2.0",
-    "eslint-plugin-react-refresh": "^0.4.26",
+    "eslint-plugin-react-refresh": "^0.5.7",
     "globals": "^16.5.0",
     "jsdom": "^26.1.0",
     "msw": "^2.15.0",
     "typescript": "~5.8",
-    "typescript-eslint": "^8.71.2",
+    "typescript-eslint": "^8.72.1",
     "vite": "^8.3.5",
     "vitest": "^5.0.5"
   }
